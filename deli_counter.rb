@@ -14,8 +14,8 @@ def line(array)
 end
 
 def take_a_number(line, new_customer)
-  line << new_person
-  puts "Welcome, #{new_person} you are number #{line.length} in line."
+  line << new_customer
+  puts "Welcome, #{new_customer} you are number #{line.length} in line."
 end
  
   
