@@ -18,7 +18,7 @@ def take_a_number(line, new_customer)
   puts "Welcome, #{new_customer} you are number #{line.length} in line."
 end
  
-def now-serving(line)
+def now_serving(line)
   if line.length == 0 
     puts "There is nobody waiting to be served!"
   else
