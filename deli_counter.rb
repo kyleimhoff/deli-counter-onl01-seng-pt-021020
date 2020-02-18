@@ -1,7 +1,15 @@
 katz_deli = []
-def line(katz_deli) 
-  if katz_deli.length > 0
-    katz_deli.each do |name, index|
-      puts
-  
+def line(array) 
+  if array.length >= 1 
+    new_array = []
+    counter = 1 
+    array.each do |name|
+      new_array << "#{counter}. #{name}"
+      counter += 1 
+    end
+  else
+   puts "The line is currently empty."
+  end
+end
+ 
   
